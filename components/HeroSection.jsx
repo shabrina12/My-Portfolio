@@ -17,7 +17,7 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Shabrina',
+                'Shabrina Putri',
                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                 'Web Developer',
                 1000
@@ -43,7 +43,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className='m-8 py-6 text-center flex justify-center'>
+      <div className='lg:m-8 py-6 text-center flex justify-center'>
         <div className='w-1/2'>
           <p style={fraunces.style} className='text-white text-xl lg:text-3xl leading-8'>Currently <span className='text-[#F7CC47]'>@ BTPN Indonesia</span>. 
           And I'm here to help you move your business forward with design, 
