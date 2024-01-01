@@ -28,7 +28,7 @@ const HeroSection = () => {
               repeat={Infinity}
             />
           </h1>
-          <p style={mulish.style} className='text-white opacity-60 mb-6 font-semibold text-base sm:text-lg lg:text-xl'>zafarinasabrina@gmail.com</p>
+          <p style={mulish.style} className='text-white opacity-60 mb-6 font-semibold text-base sm:text-lg lg:text-xl'>shabbrina5@gmail.com</p>
           <button style={mulish.style} className='bg-[#EF6D58] text-white w-full sm:w-fit px-8 py-2 font-bold rounded-md'>Contact Me</button>
         </div>
 

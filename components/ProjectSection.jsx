@@ -4,30 +4,48 @@ import ProjectCard from './ProjectCard'
 const projectsData = [
     {
         id: 1,
-        title: 'lorem ipsum',
+        title: 'Dine Market Clothing Web',
         desc: 'lorem ipsum lalala',
-        image: "1.png",
+        image: "header-dinemarket.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/FullStack-Ecommerce-Clothing-Web",
         preview: "https://full-stack-ecommerce-clothing-web.vercel.app/"
     },
     {
         id: 2,
-        title: 'lorem ipsum',
+        title: 'Vangia Cosmetics',
         desc: 'lorem ipsum lalala',
-        image: "1.png",
+        image: "header-vangia.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/Vangia-Front-End-Web",
         preview: "https://vangia-front-end-web-git-main-shabrina12.vercel.app/"
     },
     {
         id: 3,
-        title: 'lorem ipsum',
+        title: 'BEU Music',
         desc: 'lorem ipsum lalala',
-        image: "1.png",
+        image: "header-beu.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/BEU-Music-Front-End-Landing-Page",
         preview: "https://beu-music-front-end-web.vercel.app/"
+    },
+    {
+        id: 4,
+        title: 'Learn It Course',
+        desc: 'lorem ipsum lalala',
+        image: "header-learnit.png",
+        tag: ["All", "Web"],
+        git: "https://github.com/shabrina12/LearnIt-Front-End-Landing-Page",
+        preview: "https://learn-it-front-end-webpage.vercel.app/"
+    },
+    {
+        id: 5,
+        title: 'EzStay',
+        desc: 'lorem ipsum lalala',
+        image: "ezstay.png",
+        tag: ["All", "Web"],
+        git: "https://github.com/shabrina12/EzStay-Landing-Page",
+        preview: "https://polite-meringue-03be1c.netlify.app/"
     },
 ]
 
