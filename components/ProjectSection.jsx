@@ -5,7 +5,7 @@ const projectsData = [
     {
         id: 1,
         title: 'Dine Market Clothing Web',
-        desc: 'lorem ipsum lalala',
+        desc: 'HTML CSS NextJS Sanity Stripe',
         image: "header-dinemarket.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/FullStack-Ecommerce-Clothing-Web",
@@ -14,7 +14,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Vangia Cosmetics',
-        desc: 'lorem ipsum lalala',
+        desc: 'HTML CSS JavaScript ReactJS',
         image: "header-vangia.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/Vangia-Front-End-Web",
@@ -23,7 +23,7 @@ const projectsData = [
     {
         id: 3,
         title: 'BEU Music',
-        desc: 'lorem ipsum lalala',
+        desc: 'HTML CSS JavaScript ReactJS',
         image: "header-beu.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/BEU-Music-Front-End-Landing-Page",
@@ -32,7 +32,7 @@ const projectsData = [
     {
         id: 4,
         title: 'Learn It Course',
-        desc: 'lorem ipsum lalala',
+        desc: 'HTML CSS JavaScript ReactJS',
         image: "header-learnit.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/LearnIt-Front-End-Landing-Page",
@@ -41,11 +41,20 @@ const projectsData = [
     {
         id: 5,
         title: 'EzStay',
-        desc: 'lorem ipsum lalala',
+        desc: 'HTML CSS Bootstrap',
         image: "ezstay.png",
         tag: ["All", "Web"],
         git: "https://github.com/shabrina12/EzStay-Landing-Page",
         preview: "https://polite-meringue-03be1c.netlify.app/"
+    },
+    {
+        id: 6,
+        title: 'Easy Bank Landing Page',
+        desc: 'HTML CSS JavaScript ReactJS',
+        image: "header-easybank.png",
+        tag: ["All", "Web"],
+        git: "https://github.com/shabrina12/Easybank-Landing-Page",
+        preview: "https://cerulean-pastelito-7b8f60.netlify.app/"
     },
 ]
 
