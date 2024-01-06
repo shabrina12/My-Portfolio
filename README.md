@@ -19,7 +19,7 @@ This portfolio website is build using NextJS 13 and is still under development.
 
 ### Useful resources
 - [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design, some are even free.
-- [NextJs Portfolio Tutorial - Build a Responsive Portfolio Website w/ Advanced Animations (2023) by Webdecoded]([https://www.youtube.com/watch?v=4mOkFXyxfsU&t=10459s](https://www.youtube.com/watch?v=Kb1f5bvF6f4&list=PLX3rE0SL_PjHPmNDA1PVfR7_22pzEuW5T&index=9&t=4242s&ab_channel=webdecoded)) 
+- [NextJs Portfolio Tutorial - Build a Responsive Portfolio Website w/ Advanced Animations (2023) by Webdecoded](https://www.youtube.com/watch?v=Kb1f5bvF6f4&list=PLX3rE0SL_PjHPmNDA1PVfR7_22pzEuW5T&index=9&t=4242s&ab_channel=webdecoded)
 
 ## Author
 
