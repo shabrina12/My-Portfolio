@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio Website
+This portfolio website is build using NextJS 13 and is still under development.
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Credit](#credit)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+- [Getting Started](#getting-started)
+
+### Credit
+[Figma Web Design & UI kit i used for this project is design by Laaqiq.design](https://www.figma.com/community/file/1063415783897538948)
+
+### Useful resources
+- [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design, some are even free.
+- [NextJs Portfolio Tutorial - Build a Responsive Portfolio Website w/ Advanced Animations (2023) by Webdecoded](https://www.youtube.com/watch?v=Kb1f5bvF6f4&list=PLX3rE0SL_PjHPmNDA1PVfR7_22pzEuW5T&index=9&t=4242s&ab_channel=webdecoded)
+
+## Author
+
+- Github - [Shabrina Putri](https://github.com/shabrina12/)
+- Instagram - [@shabputri_](https://www.instagram.com/shabputri_/)
+
+
+## Acknowledgments
+
+A HUGE Thanks to webdecoded youtube channel which helps me learn about web development especially next js.
+
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
