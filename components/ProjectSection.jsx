@@ -80,7 +80,7 @@ const ProjectSection = () => {
     };
 
   return (
-    <section className='bg-[#32334C] text-white p-16'>
+    <section id='projects' className='bg-[#32334C] text-white p-16'>
         <div className='lg:mx-24 mb-8 flex justify-between items-end'>
             <div>
                 <h4 className='text-[#EF6D58]'>PORTFOLIO</h4>
