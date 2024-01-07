@@ -37,7 +37,7 @@ const HeroSection = () => {
           <button style={mulish.style} className='bg-[#EF6D58] text-white w-full sm:w-fit px-8 py-2 font-bold rounded-md'>Contact Me</button>
         </div>
 
-        <div className='border border-primary col-span-5 place-self-center mt-4 lg:mt-0 relative'>
+        <div className='col-span-5 place-self-center mt-4 lg:mt-0 relative'>
           <div className='rounded-full bg-[#3A3C56] w-[350px] h-[350px] absolute top-[30%] right-[40%]'></div>
           <div className='rounded-tl-full rounded-tr-full bg-[#F7CC47] relative w-full h-full flex justify-center items-end'>
             <Image 
