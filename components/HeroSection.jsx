@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { Fraunces, Mulish } from 'next/font/google';
 import { TypeAnimation } from 'react-type-animation';
+import { motion } from 'framer-motion';
 
 const fraunces = Fraunces({subsets: ['latin']});
 const mulish = Mulish({subsets: ['latin']});
@@ -10,7 +11,11 @@ const mulish = Mulish({subsets: ['latin']});
 const HeroSection = () => {
   return (
     <section className='bg-[#32334C]'>
-      <div className='h-[700px] grid grid-cols-1 md:grid-cols-12 sm:py-28 md:py-0'>
+      <motion.div 
+        initial={{ opacity: 0, scale: 0.5 }} 
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5 }} 
+        className='h-[700px] grid grid-cols-1 md:grid-cols-12 sm:py-28 md:py-0'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 style={fraunces.style} className='text-white font-semibold mb-6 text-4xl lg:text-6xl'>
             Hello, world! <br/> I'm {" "}
@@ -41,7 +46,7 @@ const HeroSection = () => {
             />   
           </div>
         </div>
-      </div>
+      </motion.div>
 
       <div className='sm:mt-24 md:mt-0 lg:m-8 py-6 text-center flex justify-center'>
         <div className='w-1/2'>
