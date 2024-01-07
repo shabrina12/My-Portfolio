@@ -4,6 +4,7 @@ import Navbar from '@components/Navbar'
 import ServiceSection from '@components/ServiceSection'
 import ProjectSection from '@components/ProjectSection'
 import EmailSection from '@components/EmailSection'
+import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <ProjectSection />
         <EmailSection />
       {/* </div> */}
+      <Footer />
     </main>
   ) 
 }
