@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiceSection = () => {
   return (
-    <section id='about' className='bg-[#fdf0e9] p-16'>
+    <section id='service' className='bg-[#fdf0e9] p-16'>
         <h4 className='text-center text-[#EF6D58]'>SERVICE</h4>
         <h1 className='text-[#391400] text-4xl font-bold text-center'>How I Can Help<br/> You With</h1>
         <div className='mt-6 lg:mx-24 flex sm:flex-col md:flex-row'>
