@@ -13,7 +13,6 @@ This portfolio website is build using NextJS 13 and is still under development.
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
 - [Getting Started](#getting-started)
 
 ### Credit
@@ -23,11 +22,6 @@ This portfolio website is build using NextJS 13 and is still under development.
 ### Useful resources
 - [Github Icon](https://icons8.com/icons/set/github)
 - [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design, some are even free.
-
-## Author
-
-- Github - [Shabrina Putri](https://github.com/shabrina12/)
-- Instagram - [@shabputri_](https://www.instagram.com/shabputri_/)
 
 ## Getting Started
 
