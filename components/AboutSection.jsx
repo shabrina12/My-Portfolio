@@ -58,10 +58,11 @@ const AboutSection = () => {
 
   return (
     <section id='about' className='bg-[#fdf0e9] px-16 py-8'>
-      <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 items-center sm:py-16 py-8 px-4 xl:px-16'>
+      <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 items-center sm:py-16 lg:py-24 py-8 px-4 xl:px-16'>
         <div className='sm:mb-24 mb-0 flex flex-col items-center relative'>
-          <Image src="/laptop.jpg" width={500} height={500} />
-          <Image className='absolute top-[75%] left-[-3%]' src="/profile-circle.png" width={150} height={150} />
+          <div className='bg-[#F9E5DA] z-0 absolute top-[-25%] left-[2%] sm:w-96 md:w-60 md:h-60 lg:w-96 lg:h-72'></div>
+          <Image src="/laptop.jpg" className='z-1 relative' width={480} height={480} />
+          <Image className='absolute top-[80%] left-[-3%]' src="/profile-circle.png" width={150} height={150} />
         </div>
         <div className='h-full'>
           <h4 className='text-[#EF6D58] sm:mt-4 mb-3'>ABOUT</h4>
