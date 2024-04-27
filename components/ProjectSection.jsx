@@ -7,6 +7,15 @@ import { motion, useInView } from 'framer-motion';
 const projectsData = [
     {
         id: 1,
+        title: 'Travel Landing Page',
+        desc: 'HTML CSS NextJS Typescript',
+        image: "travlog_homepage.png",
+        tag: ["All", "Front End"],
+        git: "https://github.com/shabrina12/Travel-Landing-Page",
+        preview: "https://travlog-landing-page-zeta.vercel.app/"
+    },
+    {
+        id: 2,
         title: 'Dine Market Clothing Web',
         desc: 'HTML CSS NextJS Sanity Stripe',
         image: "header-dinemarket.png",
@@ -15,7 +24,7 @@ const projectsData = [
         preview: "https://full-stack-ecommerce-clothing-web.vercel.app/"
     },
     {
-        id: 2,
+        id: 3,
         title: 'Vangia Cosmetics',
         desc: 'HTML CSS JavaScript ReactJS',
         image: "header-vangia.png",
@@ -24,7 +33,7 @@ const projectsData = [
         preview: "https://vangia-front-end-web-git-main-shabrina12.vercel.app/"
     },
     {
-        id: 3,
+        id: 4,
         title: 'BEU Music',
         desc: 'HTML CSS JavaScript ReactJS',
         image: "header-beu.png",
@@ -33,7 +42,7 @@ const projectsData = [
         preview: "https://beu-music-front-end-web.vercel.app/"
     },
     {
-        id: 4,
+        id: 5,
         title: 'Learn It Course',
         desc: 'HTML CSS JavaScript ReactJS',
         image: "header-learnit.png",
@@ -42,7 +51,7 @@ const projectsData = [
         preview: "https://learn-it-front-end-webpage.vercel.app/"
     },
     {
-        id: 5,
+        id: 6,
         title: 'EzStay',
         desc: 'HTML CSS Bootstrap',
         image: "ezstay.png",
@@ -51,7 +60,7 @@ const projectsData = [
         preview: "https://polite-meringue-03be1c.netlify.app/"
     },
     {
-        id: 6,
+        id: 7,
         title: 'Easy Bank Landing Page',
         desc: 'HTML CSS JavaScript ReactJS',
         image: "header-easybank.png",
@@ -59,16 +68,6 @@ const projectsData = [
         git: "https://github.com/shabrina12/Easybank-Landing-Page",
         preview: "https://cerulean-pastelito-7b8f60.netlify.app/"
     },
-    {
-        id: 7,
-        title: 'Travel Landing Page',
-        desc: 'HTML CSS NextJS Typescript',
-        image: "travlog_homepage.png",
-        tag: ["All", "Front End"],
-        git: "https://github.com/shabrina12/Travel-Landing-Page",
-        preview: "https://travlog-landing-page-zeta.vercel.app/"
-    },
-
 ]
 
 const ProjectSection = () => {
