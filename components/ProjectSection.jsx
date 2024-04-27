@@ -63,7 +63,7 @@ const projectsData = [
         id: 7,
         title: 'Travel Landing Page',
         desc: 'HTML CSS NextJS Typescript',
-        image: "travlog-homepage.png",
+        image: "travlog_homepage.png",
         tag: ["All", "Front End"],
         git: "https://github.com/shabrina12/Travel-Landing-Page",
         preview: "https://travlog-landing-page-zeta.vercel.app/"
