@@ -4,6 +4,10 @@ import Image from 'next/image'
 import TabButton from './TabButton'
 import Link from 'next/link'
 import { Fraunces, Mulish } from 'next/font/google';
+import { FaMagnifyingGlass } from "react-icons/fa6";
+import { GiGraduateCap } from "react-icons/gi";
+import { RiDrinks2Fill } from "react-icons/ri";
+import { FaBookOpen } from "react-icons/fa6";
 
 const fraunces = Fraunces({subsets: ['latin']});
 const mulish = Mulish({subsets: ['latin']});
@@ -66,10 +70,16 @@ const AboutSection = () => {
         </div>
         <div className='h-full'>
           <h4 className='text-[#EF6D58] sm:mt-4 mb-3'>ABOUT</h4>
-          <h2 style={fraunces.style} className='text-4xl text-[#391400] mb-3 font-bold'>Junior Full Stack<br/> Developer</h2>
-          <p style={mulish.style} className='text-[#391400] md:text-lg text-left'>
+          <h2 style={fraunces.style} className='text-4xl text-[#391400] mb-3 font-bold'>Developer at SMBC Indonesia</h2>
+          {/* <p style={mulish.style} className='text-[#391400] md:text-lg text-left'>
           I'm well-versed in a variety of technologies, including but not limited to HTML, CSS, JavaScript, and popular frameworks like NextJS and React on the front end. On the server side, I've worked with ASP.Net and Node.js, and my database skills include SQL database.
-          </p>
+          </p> */}
+          <ul style={mulish.style} className='flex flex-col gap-2 text-[#391400] md:text-lg text-left'>
+            <li className='flex items-center gap-2'><GiGraduateCap size={24}/>Computer Engineer</li>
+            <li className='flex items-center gap-2'><FaMagnifyingGlass size={24} />Detail-oriented problem solver</li>
+            <li className='flex items-center gap-2'><RiDrinks2Fill size={24} />Fueled by matcha & curiosity</li>
+            <li className='flex items-center gap-2'><FaBookOpen size={24} />Bookworm outside of code</li>
+          </ul>
           <div className='flex flex-row mt-8'>
             <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
               {" "}

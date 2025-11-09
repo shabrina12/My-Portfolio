@@ -48,13 +48,13 @@ const HeroSection = () => {
         </div>
       </motion.div>
 
-      <div className='sm:mt-24 md:mt-0 lg:m-8 py-6 text-center flex justify-center'>
+      {/* <div className='sm:mt-24 md:mt-0 lg:m-8 py-6 text-center flex justify-center'>
         <div className='w-1/2'>
           <p style={fraunces.style} className='text-white text-xl lg:text-3xl leading-8'>Currently <span className='text-[#F7CC47]'>@ BTPN Indonesia </span>
           as<br/> Junior Full Stack Developer.
           </p>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
