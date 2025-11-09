@@ -24,7 +24,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className='fixed left-0 right-0 z-10 bg-[#32334C] text-white sm:px-12 lg:px-36 py-6'>
+    <nav className='fixed left-0 right-0 z-10 bg-[#32334C] text-white px-6 sm:px-12 lg:px-36 py-6'>
         <div className='flex flex-wrap items-center justify-between mx-auto px-4'>
             <Link href={"/"} className='text-2xl md:text-4xl font-semibold'>
                 Put.

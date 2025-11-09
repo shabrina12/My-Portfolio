@@ -39,7 +39,7 @@ const EmailSection = () => {
     };
 
   return (
-    <section id='contact' className='bg-[#fdf0e9] grid md:grid-cols-2 lg:px-40 sm:px-16 py-16 gap-4'>
+    <section id='contact' className='bg-[#fdf0e9] grid md:grid-cols-2 px-10 lg:px-40 sm:px-16 py-16 gap-4'>
         <div className='flex flex-col gap-4'>
             <h5 className='text-xl font-bold my-2'>Let's Connect</h5>
             <p className='text-lg mb-4 max-w-md'>

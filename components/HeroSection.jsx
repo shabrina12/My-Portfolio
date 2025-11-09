@@ -15,7 +15,7 @@ const HeroSection = () => {
         initial={{ opacity: 0, scale: 0.5 }} 
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5 }} 
-        className='h-[700px] grid grid-cols-1 md:grid-cols-12 sm:py-28 md:py-0'>
+        className='h-[700px] grid grid-cols-1 md:grid-cols-12 py-24 sm:py-28 md:py-0'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 style={fraunces.style} className='text-white font-semibold mb-6 text-4xl lg:text-6xl'>
             Hello, world! <br/> I'm {" "}
@@ -37,13 +37,17 @@ const HeroSection = () => {
           <button style={mulish.style} className='bg-[#EF6D58] text-white w-full sm:w-fit px-8 py-2 font-bold rounded-md'>Contact Me</button>
         </div>
 
-        <div className='col-span-5 place-self-center mt-4 lg:mt-0 relative'>
-          <div className='rounded-full bg-[#3A3C56] w-[350px] h-[350px] absolute top-[30%] right-[40%]'></div>
+        <div className='col-span-5 place-self-center mt-12 lg:mt-0 relative'>
+          <div className='rounded-full bg-[#3A3C56] w-[350px] h-[350px] absolute top-[10%] md:top-[30%] right-[10%] md:right-[40%]'></div>
           <div className='rounded-tl-full rounded-tr-full bg-[#F7CC47] relative w-full h-full flex justify-center items-end'>
             <Image 
-              src="/profile.png" alt='hero image' 
+              className='md:block hidden' src="/profile.png" alt='hero image' 
               width={300} height={200}
             />   
+            <Image 
+              className='block md:hidden' src="/profile.png" alt='hero image' 
+              width={250} height={150}
+            /> 
           </div>
         </div>
       </motion.div>

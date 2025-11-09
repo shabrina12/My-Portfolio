@@ -115,7 +115,7 @@ const ProjectSection = () => {
                 isSelected={tag === "Full Stack"} />
         </div>
 
-        <ul ref={ref} className='lg:mx-24 lg:my-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
+        <ul ref={ref} className='mt-6 lg:mx-24 lg:my-12 grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {filteredProjects.map((project, index) => (
             <motion.li 
                 key={index}

@@ -64,9 +64,9 @@ const AboutSection = () => {
     <section id='about' className='bg-[#fdf0e9] px-16 py-8'>
       <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 items-center sm:py-16 lg:py-24 py-8 px-4 xl:px-16'>
         <div className='sm:mb-24 mb-0 flex flex-col items-center relative'>
-          <div className='bg-[#F9E5DA] z-0 absolute top-[-25%] left-[2%] sm:w-96 md:w-60 md:h-60 lg:w-96 lg:h-72'></div>
-          <Image src="/laptop.jpg" className='z-1 relative' width={480} height={480} />
-          <Image className='absolute top-[80%] left-[-3%]' src="/profile-circle.png" width={150} height={150} />
+          <div className='bg-[#F9E5DA] z-0 absolute top-[-20%] left-[5%] sm:w-96 md:w-60 md:h-60 lg:w-96 lg:h-72'></div>
+          <Image src="/laptop.jpg" className='md:block hidden z-1 relative' width={480} height={480} />
+          <Image className='md:block hidden absolute top-[75%] left-[2%]' src="/profile-circle.png" width={150} height={150} />
         </div>
         <div className='h-full'>
           <h4 className='text-[#EF6D58] sm:mt-4 mb-3'>ABOUT</h4>
@@ -74,7 +74,7 @@ const AboutSection = () => {
           {/* <p style={mulish.style} className='text-[#391400] md:text-lg text-left'>
           I'm well-versed in a variety of technologies, including but not limited to HTML, CSS, JavaScript, and popular frameworks like NextJS and React on the front end. On the server side, I've worked with ASP.Net and Node.js, and my database skills include SQL database.
           </p> */}
-          <ul style={mulish.style} className='flex flex-col gap-2 text-[#391400] md:text-lg text-left'>
+          <ul style={mulish.style} className='flex flex-col gap-1 text-[#391400] md:text-lg text-left'>
             <li className='flex items-center gap-2'><GiGraduateCap size={24}/>Computer Engineer</li>
             <li className='flex items-center gap-2'><FaMagnifyingGlass size={24} />Detail-oriented problem solver</li>
             <li className='flex items-center gap-2'><RiDrinks2Fill size={24} />Fueled by matcha & curiosity</li>
